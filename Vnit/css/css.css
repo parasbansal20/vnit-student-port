@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li ul{
+	display: none;
+}
+
+nav ul li:hover ul {
+	display: block;
+
+}
+
+nav ul li ul li a{
+	color: black;
+	font-size: 20px;
+	padding: 10px 5px;
+	text-decoration: none;
+	font-weight: 800;
+}
+nav ul li ul li{
+	padding: 10px 5px;
+}
+
+nav{
+	background-color: white;
+}
+
+.heading{
+	text-align: center;
+	padding: 20px 0px;
+	background-color: midnightblue;
+	color: white;
+}
+
+nav ul li ul li first{
+	color: yellow
+}
+
+.batbackground{
+	background-color:white;
+	color: darkgrey;
+	text-align: center;
+	background-size: cover;
+
+}
+.batbackground h2{
+	color: black;
+}
+
+nav ul li ul li :hover{
+	background-color:yellow;
+	color: black;  
+}
+
+form{
+	font-weight: 800;
+	padding: 100px 0px;
+	background-image: url(../images/bg1.jpeg);
+	text-align: center;
+	color: white;
+}
+
+.name:hover {
+	color: yellow;
+}
+.batch:hover{
+	color: yellow;
+}
+.email:hover {
+	color: yellow;
+}
+
+.Message:hover {
+	color: yellow;
+}
+.yes:hover{
+	color: yellow;
+}
+.no:hover{
+	color: yellow;
+}
+.ques{
+	display: inline-block;
+}
+
+nav{
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	margin-bottom: 30px; 
+}
+.heading{
+	padding-top: 50px;
+}
+.motivational{
+	background-image: url(../images/bg3.jpeg);
+	padding: 200px 0px;
+	color: red;
+	text-align: center;
+	background-size: cover;
+	font-style: bold;
+	font-weight:1000; 
+	
+}
+.motivational{
+	left:200px;
+}
+
+.done{
+	font-size: 40px;
+	color: red;
+	
+}
+
+.button{
+	background-color: white;
+	color:red;
+	padding:10px 15px;
+	border:none;
+}
+
+.button:hover{
+	background:red;
+	color:black;
+}
+.Copyright{
+	color: blue;
+	text-align: center;
+}
+
+.Copyright a{
+     text-decoration: none;
+     color: red;
+}
+
+.Copyright{
+	padding: 51px;
+	background-color: lightgrey;
+}
+.social ul li{
+	display: inline;
+	padding: 20px 20px;
+}
+
+.social ul{
+     padding-top: 20px; 
+}
+
+.social{
+	text-align: center;
+}
